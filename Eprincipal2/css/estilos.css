@@ -3,9 +3,18 @@
     padding: 0;
 
 }
-logo{
+@font-face {
+    font-family:"howdy Lemon" ;
+    src: url(/fuentes/Howdy_Lemon.ttf);
+}
+p{
+    font-family:"howdy Lemon" ;
+}
+#logo{
 
     width: 50px;
+    position: absolute;
+    left: 300px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -31,4 +40,19 @@ h1{
         font-style: normal;
       
       
+}
+#mundo{
+    position: relative;left: 300px;top: 100px; bottom: 200px;
+}
+#msg{
+    width: 200px;
+    height: 300px;
+    position: fixed;
+    right: 200px;
+    bottom: 400px;
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(152, 209, 152);
 }
